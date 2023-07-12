@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+</head>
+<style>
+    .container {
+        display: flex;
+
+    }
+
+    .card {
+        padding: 23px 12px;
+        /* border: 2px solid red; */
+        margin: 23px 12px;
+        background-color: burlywood;
+
+        /* box-shadow: 10px 13px green; */
+        /* box-shadow: -7px -5px 10px 34px rgba(71, 172, 172, 0.5); */
+        box-shadow: inset 3px 5px green;
+        box-shadow: 3px 5px green, 4px 6px red;
+    
+    }
+    .card h2{
+        /* text-shadow: 3px 4px red; */
+        text-shadow: -3px -2px 2px white;
+    }
+</style>
+
+<body>
+    <div class="container">
+        
+        <div class="card" id="card-1">
+            <h2>This is c++ course</h2>
+            <p>I have started c++ course which does not mean that we will stop this course. We will continue this course to completion. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ea ipsum nemo ad vitae. Iste, odio dicta
+                voluptas magnam, ex temporibus, dolorem vel quidem cupiditate asperiores debitis quo eaque repudiandae neque
+                illum. Mollitia, hic?</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is HTML course</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam aperiam, dolor adipisci quidem, optio vitae
+                sunt id assumenda, sint accusamus reprehenderit laboriosam perferendis iste consequuntur amet quas illo
+                necessitatibus quasi suscipit. Impedit, tenetur voluptatibus?</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>card3</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam aperiam, dolor adipisci quidem, optio vitae
+                sunt id assumenda, sint accusamus reprehenderit laboriosam perferendis iste consequuntur amet quas illo
+                necessitatibus quasi suscipit. Impedit, tenetur voluptatibus?</p>
+        </div>
+    </div>
+</body>
+
+</html>

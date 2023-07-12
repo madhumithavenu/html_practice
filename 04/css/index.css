@@ -1,0 +1,68 @@
+body {
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    border: 4px double #379a33;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: lavender;
+    line-height: 40px;
+
+}
+h1{
+    font-family: 'Merienda One', cursive;
+    font-family: 200%;
+    text-align: center;
+}
+h2{
+    font-size: 150%;
+    text-decoration: underline;
+}
+h4{
+    font-size: 110%;
+    font-weight: normal;
+}
+
+p {
+    color: maroon;
+}
+q{
+    font-style: italic;
+}
+
+h2,
+h3 {
+    font-size: serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+p.vision{
+    color: #363636;
+}
+p.faculty{
+    font-weight: bold;
+}
+p#bright{
+    color: #ef3c5a;
+    font-size: 27px;
+    font-family: cursive;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 680px;
+    margin-left: 20px;
+    background-image: url(../images/bright-sun.png);
+    background-repeat: no-repeat;
+    
+    background-color: #426aaa;
+    color: white;
+    border-style: dashed;
+}
